@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+    <title>Basic Portfolio</title>
+<!-- Linking Bootstap CSS   -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!--Linking CSS    -->
+  <link href= "/css/style.css" rel="stylesheet">
+<!--Linking Google Font    -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="page-container">
+    <div id="content-wrap">
+  <!-- nav bar  -->
+  <header class="navbar navbar-expand-lg navbar-light sticky-nav header" id="nav">
+    <div class="container-fluid">
+      <div class="nav-container">
+          <div id="nav-links">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Us</a>
+               </li>
+                    <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">We do this</a></li>
+                <li><a class="dropdown-item" href="#">And this</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Oh this too</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/patina.html">Patina Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact.html" >Contact Us</a>
+            </li>
+          </ul>
+            </div>
+        </div>
+      </div>
+      <div class="nav-container">
+        <a id="page-title" class="navbar-brand" href="/index.html">Sentimetal</a>
+      </div>
+    </div>
+  </header>
+  <!--about us   -->
+    <div id="about">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Malesuada proin libero nunc consequat. In eu mi bibendum neque egestas congue quisque egestas. Gravida in fermentum et sollicitudin. Odio tempor orci dapibus ultrices in. Mi tempus imperdiet nulla malesuada. Libero volutpat sed cras ornare. Ut eu sem integer vitae justo eget magna. Curabitur vitae nunc sed velit dignissim sodales. Accumsan tortor posuere ac ut consequat semper viverra. Aliquam etiam erat velit scelerisque in dictum. </p>
+
+  <p>Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Volutpat consequat mauris nunc congue nisi vitae suscipit. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Malesuada fames ac turpis egestas integer eget aliquet nibh. Id donec ultrices tincidunt arcu non sodales neque. Volutpat ac tincidunt vitae semper quis. Vitae et leo duis ut. Nunc scelerisque viverra mauris in aliquam. Viverra suspendisse potenti nullam ac. Ultricies leo integer malesuada nunc vel risus commodo viverra. Dictum sit amet justo donec enim. Laoreet id donec ultrices tincidunt arcu non sodales. Iaculis urna id volutpat lacus laoreet non.</p>
+    </div>
+  <!--carousel    -->
+    <div id="home-carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://via.placeholder.com/150" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/150"class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://via.placeholder.com/150" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    </div>
+  </div>
+  <footer id="footer" >
+      <a id="title-footer" class="navbar-brand" href="/index.html">Sentimetal</a>
+    <div id= "footer-info">
+      <p>190 Bunyan Ave Berthoud, CO</p>
+      <p>Give us a call today! 999-999-9999 </p>
+    </div>
+  </footer> 
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

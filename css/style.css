@@ -1,0 +1,96 @@
+#page-container {
+  position: relative;
+  min-height: 110vh;
+  background: #e5e5e5;
+}
+#content-wrap{
+  padding-bottom: 4em;
+}
+
+#nav {
+  background-image: url("https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 14em;
+/*   background: rgba(41, 115, 115, 0.5); */
+}
+.header{
+  z-index:1000;
+  position: sticky;
+  top: 0;
+}
+#page-title, #title-footer {
+  font-size: 7em;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: .1em;
+}
+.nav-container {
+  background: rgba(206, 211, 220, 0.7);
+  border-radius: 3em;
+  padding:  0.5rem;
+}
+#nav-links {
+  float: right;
+}
+
+#home-carousel{
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 2em;
+  width: 50%;
+}
+
+#about {
+ text-indent: 1em;
+  margin: 2em;
+}
+#tj-image {
+  float: left;
+  margin: 1em;
+}
+#dylan-image {
+  float: right;
+  margin: 1em;
+}
+#patina-card{
+  float: left;
+  margin: 2em;
+/*   border: 1px solid black; */
+  border-radius: 2em;
+  width: 18rem;
+  background: rgba(206, 211, 220, 0.5);
+}
+#patina-image {
+   border-radius: 2em;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+#patina-gallery {
+  display: inline-block;    
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 2em;
+}
+#patina-text {
+  text-align: left;
+  text-indent: 1em;
+}
+
+
+#footer {
+  display: inline-block; 
+  width: 100%;
+  background-color: #f8f9fa;
+}
+
+#title-footer {
+  float: left;
+  font-size: 2em;
+  color: black;
+  width: 50%;
+}
+#footer-info {
+  float: right;
+}
